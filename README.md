@@ -1,4 +1,4 @@
-# 鈴宮琴音的部落格 :link: https://xiaxhyu.github.io 
+# 琴音的部落格 :link: https://xiaxhyu.github.io 
 ### :page_facing_up: [2](https://xiaxhyu.github.io/tag.html) 
 ### :speech_balloon: 0 
 ### :hibiscus: 191 
