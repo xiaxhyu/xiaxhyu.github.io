@@ -87,13 +87,16 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     </div>
     <div class="listLabels">
         
-        <span class="Label LabelName" style="background-color:#0075ca"><object><a style="color:#fff" href="tag.html#documentation">documentation</a></object></span>
+        <span class="Label LabelName" style="background-color:#0075ca"><object><a style="color:#fff" href="tag.html#日常">日常</a></object></span>
         <span class="Label LabelTime" style="background-color:#bc4c00">2024-07-05</span>
     </div>
 </a>
 </nav>
 </div>
     <div id="footer">Copyright © <span id="year"></span><a href="https://xiaxhyu.github.io"> 鈴宮琴音的部落格 </a>
+<p>
+<span id="runday"></span>Powered by <a href="https://meekdai.com/Gmeek.html" target="_blank">Gmeek</a>
+</p>
 
 <script>
 if(""!=""){
@@ -136,6 +139,8 @@ function utterancesTheme(theme){
     const iframe=document.getElementsByClassName('utterances-frame')[0];
     iframe.contentWindow.postMessage(message,'https://utteranc.es');
 }
+if(themeSettings[theme]){changeTheme(...themeSettings[theme]);}
+console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n\n","padding:5px 0;background:#02d81d;color:#fff");
 </script>
 
 <script>
